@@ -1,4 +1,0 @@
-C:/Users/tosha/CLionProjects/excel_hello/cmake-build-debug/CMakeFiles/libxl.dir
-C:/Users/tosha/CLionProjects/excel_hello/cmake-build-debug/CMakeFiles/excel_hello.dir
-C:/Users/tosha/CLionProjects/excel_hello/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tosha/CLionProjects/excel_hello/cmake-build-debug/CMakeFiles/rebuild_cache.dir
