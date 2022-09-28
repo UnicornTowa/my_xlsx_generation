@@ -13339,6 +13339,5 @@ pair<string, int> get_date(){
     if (date < 10)
         dates = "0" + to_string(date);
     else dates = to_string(date);
-    pair<string, int> res = {dates + "." + months + "." + years, month};
-    return res;
+    return {dates + "." + months + "." + years, month};
 }

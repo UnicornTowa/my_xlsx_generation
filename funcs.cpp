@@ -5,14 +5,10 @@ pair<string, string> get_departure_and_arrival(int month){
     pair<string, string> res;
     if (5 <= month and month <= 9){
         if (my_rand <= 32){
-            res.first = get_working_airport();
-            res.second = get_vacation_airport();
-            return res;
+            return {get_working_airport(), get_vacation_airport()};
         }
         else if (my_rand <= 64){
-            res.first = get_vacation_airport();
-            res.second = get_working_airport();
-            return res;
+            return {get_vacation_airport(), get_working_airport()};
         }
         else if (my_rand <= 78){
             res.first = get_vacation_airport();
@@ -38,14 +34,10 @@ pair<string, string> get_departure_and_arrival(int month){
             return res;
         }
         else if (my_rand <= 65){
-            res.first = get_working_airport();
-            res.second = get_vacation_airport();
-            return res;
+            return {get_working_airport(), get_vacation_airport()};
         }
         else if (my_rand <= 80){
-            res.first = get_vacation_airport();
-            res.second = get_working_airport();
-            return res;
+            return {get_vacation_airport(), get_working_airport()};
         }
         else{
             res.first = get_vacation_airport();
@@ -60,6 +52,6 @@ pair<string, string> get_departure_and_arrival(int month){
 pair<string, int> get_class_and_cost(){
     pair<string, int> res;
     if(rand() % 10 == 0)
-        return pair("business", 350 + rand() % 2001);
-    else return pair("economy", 50 + rand() % 201);
+        return {"business", 350 + rand() % 2001};
+    else return {"economy", 50 + rand() % 201};
 }
