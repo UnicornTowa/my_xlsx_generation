@@ -1,0 +1,6 @@
+# ninja log v5
+1	141	6861017740731248	build.ninja	bdea4ec5b3f6ebc6
+8	13010	6856258497200987	CMakeFiles/excel_hello.dir/base.cpp.obj	14713bb6b7642b54
+5	966	6856254676522765	CMakeFiles/excel_hello.dir/main.cpp.obj	ecdd29740a668c7e
+51	196	6856257547145965	excel_hello.exe	e1440f185d239649
+0	59	0	libxl.lib	5ceb9f4074f9eb87
