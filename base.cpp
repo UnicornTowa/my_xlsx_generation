@@ -1,6 +1,6 @@
 #include "header.h"
 
-string work_airports[692] = {"AAH",
+inline string work_airports[692] = {"AAH",
                             "AAQ",
                             "ABA",
                             "ABZ",
@@ -13317,7 +13317,7 @@ string firstnames[1291] = {"Aaron",
 string get_fistname(){
     return firstnames[rand() % 1291];
 }
-string get_date(){
+pair<string, int> get_date(){
     int year = 2017 + rand() % 5;
     string years = to_string(year);
     int month = 1 + rand() % 12;
@@ -13339,5 +13339,6 @@ string get_date(){
     if (date < 10)
         dates = "0" + to_string(date);
     else dates = to_string(date);
-    return dates + "." + months + "." + years;
+    pair<string, int> res = {dates + "." + months + "." + years, month};
+    return res;
 }
