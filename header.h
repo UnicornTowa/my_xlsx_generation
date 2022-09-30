@@ -4,6 +4,8 @@
 
 #include <fstream>
 #include <string>
+#include "MD5.h"
+
 using namespace std;
 string get_fistname();
 string get_lastname();

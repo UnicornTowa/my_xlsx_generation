@@ -13,7 +13,7 @@ set_target_properties(libxl PROPERTIES LINKER_LANGUAGE CXX)
 
 target_include_directories(libxl INTERFACE /usr/local/lib/lib64/)
 
-add_executable(excel_hello main.cpp base.cpp header.h funcs.cpp)
+add_executable(excel_hello main.cpp base.cpp header.h funcs.cpp MD5.h MD5.cpp)
 
 target_link_libraries(excel_hello PUBLIC libxl)
 
